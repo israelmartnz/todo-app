@@ -1,0 +1,52 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* {
+  margin: 0;
+}
+
+.app--title {
+  margin: 30px;
+}
+.list--container {
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: sandybrown;
+}
+
+.list--actions {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-left: 40px;
+}
+.list--button {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.list--input {
+  margin-left: 2px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.list--item {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  height: 40px;
+  align-items: center;
+  background-color: rosybrown;
+}
